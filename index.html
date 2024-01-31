@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="index.css">
+    <script defer src="script.js"></script>
+</head>
+
+<body>
+    <h1>Calc Made Easy</h1>
+    <div id="container">
+        <div>
+            <input type="text" disabled id="display" value="0"/>
+        </div>
+
+        <div id="buttons">
+
+            <div class="row" id="row-1">
+                <button id="turnonoff">AC</button>
+                <button id="operator" value="invert">+/-</button>
+                <button id="operator" value="%">%</button>
+                <button id="operator" value="/">&divide</button>
+            </div>
+
+            <div class="row" id="row-2">
+                <button id="number" value="7">7</button>
+                <button id="number" value="8">8</button>
+                <button id="number" value="9">9</button>
+                <button id="operator" value="*">X</button>
+            </div>
+
+            <div class="row" id="row-3">
+                <button id="number" value="4">4</button>
+                <button id="number" value="5">5</button>
+                <button id="number" value="6">6</button>
+                <button id="operator" value="+">+</button>
+            </div>
+
+            <div class="row" id="row-4">
+                <button id="number" value="1">1</button>
+                <button id="number" value="2">2</button>
+                <button id="number" value="3">3</button>
+                <button id="operator" value="-">-</button>
+            </div>
+
+
+            <div class="row" id="row-5">
+                <button id="number" value="0">0</button>
+                <button id="number" value="00">00</button>
+                <button id="number" value=".">.</button>
+                <button id="calculate">=</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
